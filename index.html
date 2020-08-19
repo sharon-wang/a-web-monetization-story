@@ -1,31 +1,34 @@
 <link rel="stylesheet" href="index.css">
 <body>
     <content id="step-0" class="stage-container">
-        <div id="step-container">
+        <div id="step-0-container" class="step-container">
             <h2>Step 0</h2>
             <p>content content content</p>
             <a href="#step-1">go to step 1</a>
         </div>
-        <div id="puzzlepiece-container">
-            <div id="puzzlepiece">
+        <div id="step-0-puzzlepiece-container" class="puzzlepiece-container">
+            <div id="step-0-puzzlepiece-0">
                 <img src="puzzle.svg" width="400px">
             </div>
         </div>
-        <div id="code-container"></div>
+        <div id="step-0-code-container"></div>
     </content>
     <content id="step-1" class="stage-container">
-        <div id="step-container">
+        <div id="step-1-container" class="step-container">
             <h2>Step 1</h2>
             <p>content content content</p>
             <a href="#step-0">go back to step 0</a>
         </div>
-        <div id="puzzlepiece-container">
-            <div id="puzzlepiece">
+        <div id="step-1-puzzlepiece-container" class="puzzlepiece-container">
+            <div id="step-1-puzzlepiece-0">
                 <img src="puzzle.svg" width="400px">
+            </div>
+            <div id="step-1-puzzlepiece-1">
                 <img src="puzzle.svg" width="400px">
             </div>
         </div>
-        <div id="code-container"></div>
+        <div id="step-1-code-container"></div>
     </content>
-    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.11/lib/draggable.js"></script>
+    <script src="./draggable.js"></script>
 </body>
